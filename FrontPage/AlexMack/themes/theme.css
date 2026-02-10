@@ -1,3 +1,29 @@
 html {
     font-family: Verdana, Arial, Helvetica !important;
 }
+
+body {
+	margin: 0;
+}
+
+.main-content {
+	margin: 0 100px;
+}
+
+iframe {
+	width: 100%;
+	border-width: thick;
+	border-style: groove;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+}
+
+ /*Cellular Compatibility*/
+@media screen and (min-resolution: 192dpi) { 
+
+.main-content {
+	margin: 0 10px;
+}
+
+}
