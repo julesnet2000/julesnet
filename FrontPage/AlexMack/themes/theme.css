@@ -19,11 +19,19 @@ iframe {
 	border-right: 0;
 }
 
+.main-content > table {
+        padding-right: 0;
+    }
+
  /*Cellular Compatibility*/
 @media screen and (min-resolution: 192dpi) { 
 
-.main-content {
-	margin: 0 10px;
-}
+    .main-content {
+        margin: 0 10px;
+    }
+
+    .main-content > table {
+        padding-right: 0 !important;
+    }
 
 }
