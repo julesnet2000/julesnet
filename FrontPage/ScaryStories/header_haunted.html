@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="./css/styles.css">
+		<script src="./javascript/jquery-3.7.1.min.js"></script>
+		<title>Page Title</title>
+	</head>
+	<body>
+
+	<h1 style="margin-top: 50px; color: limegreen">Scary Stories</h1>
+	</body>
+	
+	<script type="text/javascript">
+		$(document).ready(function() {
+			const doc = window.parent.document;
+			const blog = doc.getElementById("blog");
+			var pageTitle = blog.attributes[2].nodeValue;
+			$("h1").text(pageTitle)
+		});
+	</script>
+
+</html>
